@@ -268,7 +268,6 @@ input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:fo
 	top: 60px;
 }
 .top-bar .logo span {
-	background: url("../images/logo.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
 	background-position: 0 0;
 	display: inline-block;
 	height: 40px;
@@ -349,7 +348,6 @@ input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:fo
 	top: 15px;
 }
 .top-bar.alt .logo span {
-	background: url("../images/logo-hover.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
 	text-shadow: none;
 }
 .top-bar.alt .logo span {
@@ -1954,3 +1952,8 @@ a.instagram:hover {
  width: 200px;
 }
 }
+
+/*
+For the timeline
+*/
+
