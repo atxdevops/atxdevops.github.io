@@ -52,6 +52,7 @@ mixpanel.init("9fc0aac8cf611143b3a1dafdb52acc75");</script>
                 <li> <a href="#venue">Venue</a> </li>
                 <li> <a href="#schedule">Schedule</a> </li>
                 <li> <a href="#register">Register</a> </li>
+                <li> <a href="#speakers">Speakers</a> </li>
                 <!-- <li> <a href="#workshops">Videos/Slides</a> </li> -->
                 <li> <a href="#sponsors">Sponsors</a> </li>
                 <!-- <li> <a href="#speakers">Speakers</a> </li> -->
@@ -397,15 +398,41 @@ Please consider having your company <a href="http://www.devopsdaysaustin.com/#sp
     <!-- end row -->
     <div class="row">
       <div class="span12 hero-unit text-center white">
-        <p>
-          Stay tuned! <br/><br/>We will open registration for Devopsdays Austin in late Feburary 2016.
-        </p>
+        <div style="width:100%; text-align:left;" ><iframe  src="//eventbrite.com/tickets-external?eid=21492840665&ref=etckt" frameborder="0" height="293" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a class="powered-by-eb" style="color: #dddddd; text-decoration: none;" target="_blank" href="http://www.eventbrite.com/r/etckt">Powered by Eventbrite</a></div></div>
       </div>
+      <p class=" span12 white text-center">
+        Or, register directly from our <a href="https://devopsdays.eventbrite.com" target="_blank">Eventbrite</a> page:
+        <a href="http://www.eventbrite.com/e/devopsdays-austin-2016-tickets-21492840665?ref=ebtn" target="_blank"><img src="https://www.eventbrite.com/custombutton?eid=21492840665" alt="Eventbrite - Devopsdays Austin 2016" /></a>
+      </p>
+
     </div>
     <!-- end row -->
   </div>
 </section>
 <!-- end register -->
+<section id="speakers">
+  <div class="container">
+    <div class="row">
+      <div class="span12">
+        <div class="module-header venue-header white">
+          <h4>Call for Speakers</h4>
+          <hr/>
+          <div class="span12 hero-unit white">
+            <p>
+            The call for speakers for the conference is currently open until 11:59pm CST on March 25th, 2016.<br/>
+            Selected proposals will be announced on April 4th.<br/><br/>
+            Additional background and information can be found <a href="https://drive.google.com/file/d/0B83paZOXNS5jZy05VUlwZFNjS2s/view?usp=sharing" target="_blank">here</a>.<br/><br/>
+            <a href="https://goo.gl/forms/GTytYNum2H" class="btn btn-large" target="_blank">SUBMIT A PROPOSAL</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- end span12 -->
+    </div>
+    <!-- end row -->
+  </div>
+</section>
+<!-- end speakers -->
 <section id="sponsors">
   <div class="container">
     <div class="row">
@@ -631,6 +658,9 @@ Please consider having your company <a href="http://www.devopsdaysaustin.com/#sp
 <script type="text/javascript" src="js/custom.js"></script> 
 <script type="text/javascript">
     mixpanel.track("devopsdays 2016 page loaded");
+    mixpanel.track_links("#mainnav li a", "click nav link", {
+        "referrer": document.referrer
+    });
 </script>
 <!-- Google analytics here -->
 </body>
