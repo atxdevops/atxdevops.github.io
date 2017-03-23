@@ -1979,3 +1979,7 @@ a.instagram:hover {
 For the timeline
 */
 
+.vipspeakers img {
+  max-width: 150px;
+  max-height: 150px;
+}
