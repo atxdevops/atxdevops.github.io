@@ -1983,3 +1983,7 @@ For the timeline
   max-width: 150px;
   max-height: 150px;
 }
+
+img.food {
+    max-height: 100px;
+}
